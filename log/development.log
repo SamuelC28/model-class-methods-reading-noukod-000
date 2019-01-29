@@ -1688,6 +1688,7 @@ Processing by PostsController#index as HTML
   [1m[36mPost Load (0.1ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."author_id" = 15[0m
   Rendered posts/index.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+<<<<<<< HEAD
 
 
 Started GET "/posts" for 190.102.85.211 at 2019-01-28 22:57:22 +0000
@@ -2259,3 +2260,5 @@ Processing by PostsController#index as HTML
   [1m[35mAuthor Load (0.1ms)[0m  SELECT  "authors".* FROM "authors" WHERE "authors"."id" = ? LIMIT 1  [["id", 15]]
   Rendered posts/index.html.erb within layouts/application (2.2ms)
 Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms)
+=======
+>>>>>>> 3efc7816bccffe811426681883e803a32f1f4e81
